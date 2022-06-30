@@ -1,0 +1,47 @@
+{
+  "name": "eslint-plugin-max-return-statements-per-function",
+  "version": "0.1.0",
+  "description": "ESLint rule to limit the number of return statements in a function",
+  "author": "tomyam2020",
+  "license": "MIT",
+  "main": "index.js",
+  "homepage": "https://github.com/tomyam2020/eslint-plugin-max-return-statements-per-function",
+  "bugs": {
+    "url": "https://github.com/tomyam2020/eslint-plugin-max-return-statements-per-function"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tomyam2020/eslint-plugin-max-return-statements-per-function"
+  },
+  "files": [
+    "rules",
+    "index.js",
+    "README.md"
+  ],
+  "keywords": [
+    "eslint",
+    "eslintplugin",
+    "eslint-plugin",
+    "eslintrule",
+    "eslint-rule"
+  ],
+  "scripts": {
+    "lint": "eslint .",
+    "watch": "npm test -- --watch --growl",
+    "test": "mocha tests/*.js"
+  },
+  "peerDependencies": {
+    "eslint": "^7.0.0"
+  },
+  "devDependencies": {
+    "@types/eslint": "^8.4.3",
+    "eslint": "^8.18.0",
+    "eslint-ast-utils": "^1.1.0",
+    "eslint-config-eslint": "^7.0.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-rulesdir": "^0.2.1",
+    "eslint-utils": "^3.0.0",
+    "mocha": "^10.0.0",
+    "prettier": "^2.7.1"
+  }
+}
