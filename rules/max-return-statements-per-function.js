@@ -48,7 +48,6 @@ module.exports = {
     //--------------------------------------------------------------------------
 
     const functionStack = [];
-    console.log(" context.options[0]", context.options[0]);
     const maxReturnStatements = context.options[0] || DEFAULT_MAX_COUNT;
 
     /**
@@ -60,10 +59,7 @@ module.exports = {
      * @private
      */
     function reportIfTooManyStatements(node, count, max) {
-      console.log("count", count);
-      console.log("max", max);
       if (count > max) {
-        console.log("エラー出るはず");
         const name = upperCaseFirst(getFunctionNameWithKind(node));
 
         context.report({
