@@ -28,7 +28,7 @@ module.exports = {
     docs: {
       description: "enforce a maximum number of return statements allowed in function blocks",
       recommended: false,
-      url: "https://github.com/tomyam2020/eslint-plugin-max-return-statements-per-function",
+      url: "https://github.com/tomyam2020/eslint-plugin-max-return-statements-per-function/blob/main/README.md",
     },
     schema: [
       {
