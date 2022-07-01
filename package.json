@@ -1,6 +1,6 @@
 {
   "name": "eslint-plugin-max-return-statements-per-function",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "ESLint rule to limit the number of return statements in a function",
   "author": "tomyam2020",
   "license": "MIT",
