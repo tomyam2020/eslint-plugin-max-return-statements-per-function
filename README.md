@@ -1,5 +1,7 @@
 # eslint-plugin-max-return-statements-per-function
 
+[![npm version](https://badge.fury.io/js/eslint-plugin-max-return-statements-per-function.svg)](https://badge.fury.io/js/eslint-plugin-max-return-statements-per-function)
+
 This rule reproduces one of [codeclimate's default checks](https://docs.codeclimate.com/docs/maintainability#checks), `return statements`, with ESLint.
 
 ## Installation
