@@ -21,7 +21,7 @@ function upperCaseFirst(string) {
   return string[0].toUpperCase() + string.slice(1);
 }
 
-/** @type {import('eslint/lib/shared/types').Rule} */
+/** @type {import('eslint').Rule.RuleModule} */
 module.exports = {
   meta: {
     type: "suggestion",
@@ -52,9 +52,9 @@ module.exports = {
 
     /**
      * Reports a node if it has too many statements
-     * @param {ASTNode} node node to evaluate
-     * @param {int} count Number of statements in node
-     * @param {int} max Maximum number of statements allowed
+     * @param {import('eslint').Rule.Node} node node to evaluate
+     * @param {number} count Number of statements in node
+     * @param {number} max Maximum number of statements allowed
      * @returns {void}
      * @private
      */
@@ -81,7 +81,7 @@ module.exports = {
 
     /**
      * Evaluate the node at the end of function
-     * @param {ASTNode} node node to evaluate
+     * @param {import('eslint').Rule.Node} node node to evaluate
      * @returns {void}
      * @private
      */
@@ -101,7 +101,7 @@ module.exports = {
 
     /**
      * Increment the count of return statements in the function.
-     * @param {ASTNode} node node to evaluate
+     * @param {import('eslint').Rule.Node} node node to evaluate
      * @returns {void}
      * @private
      */
