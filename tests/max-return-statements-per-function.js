@@ -1,5 +1,5 @@
-const rule = require("../rules/max-return-statements-per-function.js");
-const RuleTester = require("eslint").RuleTester;
+const { RuleTester } = require("eslint");
+const rule = require("../rules/max-return-statements-per-function");
 
 const ruleTester = new RuleTester();
 

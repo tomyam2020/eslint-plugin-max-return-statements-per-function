@@ -3,8 +3,6 @@
  * @author tomyam2020
  */
 
-"use strict";
-
 const DEFAULT_MAX_COUNT = 4;
 
 const { getFunctionNameWithKind } = require("eslint-utils");
