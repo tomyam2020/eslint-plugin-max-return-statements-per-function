@@ -1,6 +1,6 @@
 /**
  * @fileoverview A rule to set the maximum number of return statements in a function.
- * @author Ian Christian Myers
+ * @author tomyam2020
  */
 
 "use strict";
